@@ -13,6 +13,16 @@
 		EBA130FF2610CCB2003C9252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA130FD2610CCB2003C9252 /* Main.storyboard */; };
 		EBA131012610CCB7003C9252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA131002610CCB7003C9252 /* Assets.xcassets */; };
 		EBA131042610CCB7003C9252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA131022610CCB7003C9252 /* LaunchScreen.storyboard */; };
+		EBA1310E2610CE4C003C9252 /* MobileNetV2.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBA1310C2610CE4B003C9252 /* MobileNetV2.mlkitmodel */; };
+		EBA1310F2610CE4C003C9252 /* SqueezeNet.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBA1310D2610CE4C003C9252 /* SqueezeNet.mlkitmodel */; };
+		EBA131122610CF2A003C9252 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBA131112610CF2A003C9252 /* car.jpeg */; };
+		EBA131152610D5E7003C9252 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBA131142610D5E7003C9252 /* cat.jpeg */; };
+		EBA131182610D610003C9252 /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBA131172610D610003C9252 /* dog.jpeg */; };
+		EBA1311B2610E850003C9252 /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBA1311A2610E84F003C9252 /* banana.jpeg */; };
+		EBA1311E2610E933003C9252 /* mac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBA1311D2610E932003C9252 /* mac.jpg */; };
+		EBA1312D2610EFC2003C9252 /* ipod.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA1312C2610EFC2003C9252 /* ipod.png */; };
+		EBA131302610F069003C9252 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA1312F2610F069003C9252 /* tree.png */; };
+		EBA131332610F4F5003C9252 /* fish.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBA131322610F4F5003C9252 /* fish.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		EBA131002610CCB7003C9252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA131032610CCB7003C9252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA131052610CCB7003C9252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA1310C2610CE4B003C9252 /* MobileNetV2.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlkitmodel; sourceTree = "<group>"; };
+		EBA1310D2610CE4C003C9252 /* SqueezeNet.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlkitmodel; sourceTree = "<group>"; };
+		EBA131112610CF2A003C9252 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		EBA131142610D5E7003C9252 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		EBA131172610D610003C9252 /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		EBA1311A2610E84F003C9252 /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpeg; sourceTree = "<group>"; };
+		EBA1311D2610E932003C9252 /* mac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mac.jpg; sourceTree = "<group>"; };
+		EBA1312C2610EFC2003C9252 /* ipod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipod.png; sourceTree = "<group>"; };
+		EBA1312F2610F069003C9252 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		EBA131322610F4F5003C9252 /* fish.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +76,19 @@
 		EBA130F62610CCB2003C9252 /* ICE-06-ImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				EBA1310C2610CE4B003C9252 /* MobileNetV2.mlkitmodel */,
+				EBA1310D2610CE4C003C9252 /* SqueezeNet.mlkitmodel */,
 				EBA130F72610CCB2003C9252 /* AppDelegate.swift */,
 				EBA130F92610CCB2003C9252 /* SceneDelegate.swift */,
 				EBA130FB2610CCB2003C9252 /* ViewController.swift */,
+				EBA131112610CF2A003C9252 /* car.jpeg */,
+				EBA1311A2610E84F003C9252 /* banana.jpeg */,
+				EBA131142610D5E7003C9252 /* cat.jpeg */,
+				EBA131172610D610003C9252 /* dog.jpeg */,
+				EBA1312F2610F069003C9252 /* tree.png */,
+				EBA131322610F4F5003C9252 /* fish.jpeg */,
+				EBA1312C2610EFC2003C9252 /* ipod.png */,
+				EBA1311D2610E932003C9252 /* mac.jpg */,
 				EBA130FD2610CCB2003C9252 /* Main.storyboard */,
 				EBA131002610CCB7003C9252 /* Assets.xcassets */,
 				EBA131022610CCB7003C9252 /* LaunchScreen.storyboard */,
@@ -124,9 +154,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA131332610F4F5003C9252 /* fish.jpeg in Resources */,
+				EBA131152610D5E7003C9252 /* cat.jpeg in Resources */,
+				EBA131302610F069003C9252 /* tree.png in Resources */,
 				EBA131042610CCB7003C9252 /* LaunchScreen.storyboard in Resources */,
+				EBA1312D2610EFC2003C9252 /* ipod.png in Resources */,
+				EBA131182610D610003C9252 /* dog.jpeg in Resources */,
 				EBA131012610CCB7003C9252 /* Assets.xcassets in Resources */,
+				EBA131122610CF2A003C9252 /* car.jpeg in Resources */,
+				EBA1311B2610E850003C9252 /* banana.jpeg in Resources */,
 				EBA130FF2610CCB2003C9252 /* Main.storyboard in Resources */,
+				EBA1311E2610E933003C9252 /* mac.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA130FC2610CCB2003C9252 /* ViewController.swift in Sources */,
+				EBA1310F2610CE4C003C9252 /* SqueezeNet.mlkitmodel in Sources */,
+				EBA1310E2610CE4C003C9252 /* MobileNetV2.mlkitmodel in Sources */,
 				EBA130F82610CCB2003C9252 /* AppDelegate.swift in Sources */,
 				EBA130FA2610CCB2003C9252 /* SceneDelegate.swift in Sources */,
 			);
